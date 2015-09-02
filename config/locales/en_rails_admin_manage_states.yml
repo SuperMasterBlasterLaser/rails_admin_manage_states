@@ -1,0 +1,12 @@
+en:
+  admin:
+    actions:
+      manage_states:
+        title: Manage States
+        menu: Manage States
+        breadcrumb: Manage States
+        no_id: No ID provided
+        event_fired: '%{attr} event %{event} fired'
+        error: "Error: %{err}"
+  my_states:
+    do_nothing: Do nothing

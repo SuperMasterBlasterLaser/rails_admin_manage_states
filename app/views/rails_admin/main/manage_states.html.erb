@@ -1,0 +1,23 @@
+<h3>Manage state of <%= @object.name %></h3>
+
+<%= form_for @object, url: manage_states_path(@abstract_model, @object.id), as: @abstract_model.param_key, html: {method: 'post'} do |form| %>
+
+    <div class="btn-group" data-toggle="buttons">
+
+      <% @object.state_events.each do |event| %>
+          <label class="btn bnt-lg btn-default">
+            <%= form.radio_button :state_events, event, autocomplete: 'off' %> <%= event %>
+          </label>
+
+    <% end %>
+
+
+    </div>
+
+    <br/>
+
+    <hr/>
+
+    <%= form.submit 'Change', class: 'btn btn-lg btn-primary'  %>
+<% end %>
+
