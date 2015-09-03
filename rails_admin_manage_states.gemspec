@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = RailsAdminManageStates::VERSION
   s.authors     = ["Danik"]
   s.email       = ["31.10.93@bk.ru"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsAdminManageStates."
-  s.description = "TODO: Description of RailsAdminManageStates."
+  s.homepage    = "https://github.com/SuperMasterBlasterLaser/rails_admin_manage_states"
+  s.summary     = "Simple addon to use state_machines gem in rails_admin."
+  s.description = "Simple addon to use state_machines gem in rails_admin."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
