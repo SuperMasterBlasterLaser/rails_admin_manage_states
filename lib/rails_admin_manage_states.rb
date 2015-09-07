@@ -11,7 +11,7 @@ module RailsAdmin
 			
 				# This ensures the action only shows up for Authorized Persons
 				register_instance_option :visible? do
-					authorized? && bindings[:object].has_attribute?(:state)
+					authorized? # && bindings[:object].has_attribute?(:state)
 				end
 				
 				# We want the action on members
