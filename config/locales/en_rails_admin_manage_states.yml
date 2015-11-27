@@ -8,5 +8,16 @@ en:
         no_id: No ID provided
         event_fired: '%{attr} event %{event} fired'
         error: "Error: %{err}"
+        moderate: "Manage state for %{shop_name}"
+        change: "Change"
   my_states:
     do_nothing: Do nothing
+  state_machines:
+    states:
+      under_review: "Проходит проверку"
+      approved: "Принято"
+      rejected: "Отказано"
+    events:
+      approve: "Принять"
+      reject: "Отказать"
+      review: "Начать проверку"

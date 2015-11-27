@@ -1,0 +1,23 @@
+ru:
+  admin:
+    actions:
+      manage_states:
+        title: Модерация состояний
+        menu: Модерация состояний
+        breadcrumb: Модерация состояний
+        no_id: Нет ID
+        event_fired: '%{attr} сработало событие %{event}'
+        error: "Ошибка: %{err}"
+        moderate: "Модерация состояния %{shop_name}"
+        change: "Поменять"
+  my_states:
+    do_nothing: Do nothing
+  state_machines:
+    states:
+      under_review: "Under review"
+      approved: "Approved"
+      rejected: "Rejected"
+    events:
+      approve: "Approve"
+      reject: "Reject"
+      review: "Review"
