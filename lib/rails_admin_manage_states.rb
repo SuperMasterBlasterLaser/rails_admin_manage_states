@@ -62,7 +62,7 @@ module RailsAdmin
 								begin
 									if @object.send('fire_state_event', params[@abstract_model.param_key][:state_events].to_sym)
 										@object.save!
-										flash[:success] = I18n.t('admin.actions.manage_states.event_fired', attr: params[:method], event: params[@abstract_model.param_key][:state_events])
+										flash[:success] = I18n.t('admin.actions.manage_states.event_fired', attr: params[:method], event: I18n.t("state_machines.events.#{params[@abstract_model.param_key][:state_events].to_s.mb_chars.downcase}"))
 									else
 										flash[:error] = obj.errors.full_messages.join(', ')
 									end
