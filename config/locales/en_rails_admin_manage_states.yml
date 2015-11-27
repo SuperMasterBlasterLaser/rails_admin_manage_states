@@ -14,10 +14,10 @@ en:
     do_nothing: Do nothing
   state_machines:
     states:
-      under_review: "Проходит проверку"
-      approved: "Принято"
-      rejected: "Отказано"
+      under_review: "Under review"
+      approved: "Approved"
+      rejected: "Rejected"
     events:
-      approve: "Принять"
-      reject: "Отказать"
-      review: "Начать проверку"
+      approve: "Approve"
+      reject: "Reject"
+      review: "Review"
