@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/rails_admin/main/manage_states.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.25046042" vertical-offset="0" max-vertical-offset="543">
-              <caret line="8" column="120" selection-start-line="8" selection-start-column="120" selection-end-line="8" selection-end-column="120" />
+              <caret line="8" column="138" selection-start-line="8" selection-start-column="138" selection-end-line="8" selection-end-column="138" />
               <folding />
             </state>
           </provider>
@@ -679,7 +679,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ru_rails_admin_manage_states.yml">
+    <entry file="file://$PROJECT_DIR$/config/locales/en_rails_admin_manage_states.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
@@ -687,7 +687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en_rails_admin_manage_states.yml">
+    <entry file="file://$PROJECT_DIR$/config/locales/ru_rails_admin_manage_states.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
@@ -698,7 +698,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/rails_admin/main/manage_states.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25046042" vertical-offset="0" max-vertical-offset="543">
-          <caret line="8" column="120" selection-start-line="8" selection-start-column="120" selection-end-line="8" selection-end-column="120" />
+          <caret line="8" column="138" selection-start-line="8" selection-start-column="138" selection-end-line="8" selection-end-column="138" />
           <folding />
         </state>
       </provider>

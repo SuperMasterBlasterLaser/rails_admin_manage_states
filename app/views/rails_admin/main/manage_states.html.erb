@@ -6,7 +6,7 @@
 
       <% @object.state_events.each do |event| %>
           <label class="btn bnt-lg btn-default">
-            <%= form.radio_button :state_events, event, autocomplete: 'off' %> <%= I18n.t("state_machines.events.#{event}")%>
+            <%= form.radio_button :state_events, event, autocomplete: 'off' %> <%= I18n.t("state_machines.events.#{event.mb_chars.downcase}")%>
           </label>
 
     <% end %>
